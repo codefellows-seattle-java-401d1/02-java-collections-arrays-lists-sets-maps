@@ -7,24 +7,17 @@ class CalculatingAveragesTest {
     @Test
     void emptyArray() {
         int[] arr = {};
-        boolean isAverage = CalculatingAverages.calculateAverage(arr);
+        double average = CalculatingAverages.calculateAverage(arr);
 
-        assertEquals(false, isAverage);
+        assertEquals(0, average);
     }
 
     @Test
     void containsDuplicates() {
-        int[] arr = {1, 2, 3, 4, 5, 6, 6, 8, 9, 10};
-        boolean isAverage = CalculatingAverages.calculateAverage(arr);
+        int[] arr = {10, 20, 10, 20, 10, 3};
+        double average = CalculatingAverages.calculateAverage(arr);
 
-        assertEquals(true, isAverage);
+        assertEquals(average, average);
     }
 
-    @Test
-    void noDuplicates() {
-        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        boolean isAverage = CalculatingAverages.calculateAverage(arr);
-
-        assertEquals(false, isAverage);
-    }
 }
