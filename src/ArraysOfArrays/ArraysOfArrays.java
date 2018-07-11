@@ -5,11 +5,11 @@ import java.util.Arrays;
 public class ArraysOfArrays {
     public static void main(String[] args) {
         int[][] arraySet = {
-                {1, 2, 3},
-                {2, 2, 6, 7, 9},
-                {0, 1,  99},
-                {1, 1, 1},
-                {0,0,15},
+//                {1, 2, 3},
+//                {2, 2, 6, 7, 9},
+//                {0, 1,  99},
+//                {1, 1, 1},
+//                {0,0,15},
         };
 
         averagesOfArray(importingArray(arraySet));
