@@ -4,11 +4,13 @@ public class CalculatingAverages {
         calculateAverage(arr);
     }
 
-    public static void calculateAverage(int[] arr) {
+    public static double calculateAverage(int[] arr) {
         double total = 0;
+        double average = 0;
         for (int i = 0; i < arr.length; i++) {
             total += (double) arr[i]/arr.length;
         }
         System.out.println(total);
+        return average;
     }
 }
