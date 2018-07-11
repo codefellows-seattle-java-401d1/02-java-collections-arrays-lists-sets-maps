@@ -8,21 +8,21 @@ class ArraysAveragerTest {
     @Test
     void arraysAverager() {
         int[][] input = {{1}};
-        double[] expected = {1};
+        int[] expected = {1};
         assertArrayEquals(expected,ArraysAverager.arraysAverager(input));
     }
 
     @Test
     void arraysAverager1() {
         int[][] input = {{1,8,6},{1,1,1},{15,17}};
-        double[] expected = {5,1,16};
+        int[] expected = {15,17};
         assertArrayEquals(expected,ArraysAverager.arraysAverager(input));
     }
 
     @Test
     void arraysAverager2() {
         int[][] input = {{}};
-        double[] expected = {NaN};
+        int[] expected = {};
         assertArrayEquals(expected,ArraysAverager.arraysAverager(input));
     }
 }
