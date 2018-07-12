@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6be608a1-cef5-41ed-b709-eddb8702df0c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/CalculatingAverages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculatingAverages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CalculatingAveragesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculatingAveragesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TallyingElection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TallyingElection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TallyingElectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TallyingElectionTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,20 +16,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CalculatingAverages.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CalculatingAverages.java">
+      <file leaf-file-name="TallyingElection.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TallyingElection.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#210#227#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalculatingAveragesTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/CalculatingAveragesTest.java">
+      <file leaf-file-name="TallyingElectionTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TallyingElectionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+            <state relative-caret-position="165">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,6 +50,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tally</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -58,6 +68,8 @@
         <option value="$PROJECT_DIR$/src/ArrayOfArrays.java" />
         <option value="$PROJECT_DIR$/src/CalculatingAverages.java" />
         <option value="$PROJECT_DIR$/src/CalculatingAveragesTest.java" />
+        <option value="$PROJECT_DIR$/src/TallyingElection.java" />
+        <option value="$PROJECT_DIR$/src/TallyingElectionTest.java" />
       </list>
     </option>
   </component>
@@ -112,7 +124,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatingAveragesTest">
+  <component name="RunManager" selected="JUnit.TallyingElectionTest">
     <configuration name="CalculatingAverages" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CalculatingAverages" />
       <module name="02-java-collections-arrays-lists-sets-maps" />
@@ -120,11 +132,6 @@
     </configuration>
     <configuration name="ContainsDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ContainsDuplicates" />
-      <module name="02-java-collections-arrays-lists-sets-maps" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="RollingDice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RollingDice" />
       <module name="02-java-collections-arrays-lists-sets-maps" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -154,6 +161,23 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ContainsDuplicatesTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TallyingElectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="02-java-collections-arrays-lists-sets-maps" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TallyingElectionTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -204,19 +228,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.RollingDice" />
       <item itemvalue="JUnit.ContainsDuplicatesTest" />
       <item itemvalue="Application.ContainsDuplicates" />
       <item itemvalue="Application.CalculatingAverages" />
       <item itemvalue="JUnit.CalculatingAveragesTest" />
+      <item itemvalue="JUnit.TallyingElectionTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TallyingElectionTest" />
         <item itemvalue="JUnit.CalculatingAveragesTest" />
         <item itemvalue="Application.CalculatingAverages" />
         <item itemvalue="Application.ContainsDuplicates" />
         <item itemvalue="JUnit.ContainsDuplicatesTest" />
-        <item itemvalue="Application.RollingDice" />
       </list>
     </recent_temporary>
   </component>
@@ -234,15 +258,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RollingDiceTest - 2018.07.11 at 11h 21m 06s.xml">
-      <configuration name="RollingDiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ContainsDuplicatesTest - 2018.07.11 at 11h 40m 44s.xml">
-      <configuration name="ContainsDuplicatesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatingAveragesTest - 2018.07.11 at 12h 27m 42s.xml">
-      <configuration name="CalculatingAveragesTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CalculatingAveragesTest - 2018.07.11 at 13h 20m 49s.xml">
       <configuration name="CalculatingAveragesTest" configurationId="JUnit" />
     </history-entry>
@@ -263,6 +278,15 @@
     </history-entry>
     <history-entry file="CalculatingAveragesTest - 2018.07.11 at 13h 30m 07s.xml">
       <configuration name="CalculatingAveragesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TallyingElectionTest - 2018.07.11 at 18h 28m 50s.xml">
+      <configuration name="TallyingElectionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TallyingElectionTest - 2018.07.11 at 18h 29m 01s.xml">
+      <configuration name="TallyingElectionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TallyingElectionTest - 2018.07.11 at 18h 29m 19s.xml">
+      <configuration name="TallyingElectionTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -348,20 +372,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TallyingElectionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TallyingElection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ContainsDuplicates.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -389,6 +399,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/CalculatingAveragesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CalculatingAverages.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -396,10 +416,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CalculatingAveragesTest.java">
+    <entry file="file://$PROJECT_DIR$/src/TallyingElection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#210#227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TallyingElectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
