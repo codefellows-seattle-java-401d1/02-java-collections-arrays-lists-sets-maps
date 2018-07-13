@@ -1,18 +1,7 @@
+import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class ArrayOfArrays {
-
-    public static void main(String[] args) {
-
-        int[][] weeklyMonthTemperatures = {
-            {66, 64, 58, 65, 71, 57, 60},
-            {57, 65, 65, 70, 72, 65, 51},
-            {55, 54, 60, 53, 59, 57, 61},
-            {65, 56, 55, 52, 55, 62, 57}
-        };
-
-        System.out.println(Arrays.toString(findAvg(weeklyMonthTemperatures)));
-    }
 
     // Given an array of arrays calculate the average value for each array
     // and return the array with the lowest average.
@@ -30,6 +19,7 @@ public class ArrayOfArrays {
                 averageByRow = (double) totalByRow / aa[row].length;
             }
             tempArray[row] += averageByRow;
+            System.out.println(Arrays.toString(aa[row]) + " -- Total: " + totalByRow + " -- Avg: " + averageByRow);
         }
 
         double lowestVal = tempArray[0];
@@ -43,9 +33,11 @@ public class ArrayOfArrays {
 
             if (tempArray[i] == lowestVal) {
                 lowestIndex = i;
+                System.out.println("Lowest index: " + lowestIndex);
             }
         }
-
+        System.out.println("Lowest avg: " + lowestVal);
+        System.out.println("Lowest avg arr: " + Arrays.toString(aa[lowestIndex]));
         return aa[lowestIndex];
     }
 }
