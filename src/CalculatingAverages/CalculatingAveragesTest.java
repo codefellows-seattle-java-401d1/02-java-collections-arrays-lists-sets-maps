@@ -2,6 +2,7 @@ package CalculatingAverages;
 
 import org.junit.jupiter.api.Test;
 
+import static java.lang.Double.NaN;
 import static org.junit.jupiter.api.Assertions.*;
 
 class CalculatingAveragesTest {
@@ -11,7 +12,7 @@ class CalculatingAveragesTest {
         int[] originalArray = {1, 2, 3};
         double actual = CalculatingAverages.calculatingArrayAverages(originalArray);
 
-        double expected = 3;
+        double expected = 2;
 
         assertEquals(expected, actual);
     }
@@ -21,7 +22,7 @@ class CalculatingAveragesTest {
         int[] originalArray = {100, 200, 300, 400, 500, 600, 700, 800, 900};
         double actual = CalculatingAverages.calculatingArrayAverages(originalArray);
 
-        double expected = 2250;
+        double expected = 500;
 
         assertEquals(expected, actual);
     }
@@ -31,7 +32,7 @@ class CalculatingAveragesTest {
         int[] originalArray = {1};
         double actual = CalculatingAverages.calculatingArrayAverages(originalArray);
 
-        double expected = .5;
+        double expected = 1;
 
         assertEquals(expected, actual);
     }
@@ -41,7 +42,7 @@ class CalculatingAveragesTest {
         int[] originalArray = {};
         double actual = CalculatingAverages.calculatingArrayAverages(originalArray);
 
-        double expected = 0;
+        double expected = NaN;
 
         assertEquals(expected, actual);
     }
