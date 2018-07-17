@@ -1,8 +1,12 @@
+import java.io.Console;
 import java.util.*;
 
 public class AnalyzeWeatherData {
 
     public static void main(String[] args) {
+
+        Console console = System.console();
+        console.printf("Nick is here");
 
         int[][] weeklyMonthTemperatures = {
                 {66, 64, 58, 65, 71, 57, 60},

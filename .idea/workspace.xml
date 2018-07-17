@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9b7dd5c-31c7-4a9a-b53f-4d0d6ed6949b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AnalyzeWeatherDataTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayOfArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayOfArraysTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TallyingElectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02-java-collections-arrays-lists-sets-maps/ArraysOfArrays.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AnalyzeWeatherData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnalyzeWeatherData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArraysOfArrays.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TallyingElection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TallyingElection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnalyzeWeatherDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnalyzeWeatherDataTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +18,11 @@
       <file leaf-file-name="AnalyzeWeatherData.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AnalyzeWeatherData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            <state relative-caret-position="168">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -34,8 +30,8 @@
       <file leaf-file-name="AnalyzeWeatherDataTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AnalyzeWeatherDataTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+            <state relative-caret-position="399">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -70,16 +66,15 @@
         <option value="$PROJECT_DIR$/src/ArraysOfArrays.java" />
         <option value="$PROJECT_DIR$/src/ArrayOfArrays.java" />
         <option value="$PROJECT_DIR$/src/ArrayOfArraysTest.java" />
-        <option value="$PROJECT_DIR$/src/AnalyzeWeatherData.java" />
         <option value="$PROJECT_DIR$/src/AnalyzeWeatherDataTest.java" />
+        <option value="$PROJECT_DIR$/src/AnalyzeWeatherData.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="416" />
-    <option name="y" value="119" />
-    <option name="width" value="1264" />
-    <option name="height" value="852" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="945" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -89,7 +84,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -108,6 +102,7 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -139,9 +134,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AnalyzeWeatherDataTest">
-    <configuration name="ArraysOfArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysOfArrays" />
+  <component name="RunManager" selected="Application.AnalyzeWeatherData">
+    <configuration name="AnalyzeWeatherData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AnalyzeWeatherData" />
       <module name="02-java-collections-arrays-lists-sets-maps" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -255,19 +250,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ArraysOfArrays" />
       <item itemvalue="JUnit.TallyingElectionTest.winnerBush" />
       <item itemvalue="JUnit.TallyingElectionTest" />
       <item itemvalue="JUnit.ArrayOfArraysTest" />
       <item itemvalue="JUnit.AnalyzeWeatherDataTest" />
+      <item itemvalue="Application.AnalyzeWeatherData" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnalyzeWeatherData" />
         <item itemvalue="JUnit.AnalyzeWeatherDataTest" />
         <item itemvalue="JUnit.ArrayOfArraysTest" />
         <item itemvalue="JUnit.TallyingElectionTest" />
         <item itemvalue="JUnit.TallyingElectionTest.winnerBush" />
-        <item itemvalue="Application.ArraysOfArrays" />
       </list>
     </recent_temporary>
   </component>
@@ -285,9 +280,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RollingDiceTest - 2018.07.11 at 10h 50m 50s.xml">
-      <configuration name="RollingDiceTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RollingDiceTest - 2018.07.11 at 11h 35m 47s.xml">
       <configuration name="RollingDiceTest" configurationId="JUnit" />
     </history-entry>
@@ -315,9 +307,12 @@
     <history-entry file="AnalyzeWeatherDataTest - 2018.07.12 at 11h 03m 57s.xml">
       <configuration name="AnalyzeWeatherDataTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AnalyzeWeatherDataTest - 2018.07.16 at 18h 22m 29s.xml">
+      <configuration name="AnalyzeWeatherDataTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="945" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -333,7 +328,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.257371" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2610565" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -351,14 +346,14 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.2851153" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536855" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.2851153" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -385,6 +380,23 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/AnalyzeWeatherData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AnalyzeWeatherDataTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AnalyzeWeatherData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -425,10 +437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="29" selection-start-column="29" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#210#227#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -445,9 +453,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -469,9 +474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -486,9 +488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
           <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -496,10 +495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#210#227#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -519,15 +514,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AnalyzeWeatherDataTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+        <state relative-caret-position="399">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AnalyzeWeatherData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        <state relative-caret-position="168">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
