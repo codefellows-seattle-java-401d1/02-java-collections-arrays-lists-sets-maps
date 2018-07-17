@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9b7dd5c-31c7-4a9a-b53f-4d0d6ed6949b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CalculatingAveragesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnalyzeWeatherDataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayOfArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayOfArraysTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TallyingElectionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CalculatingAverages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculatingAverages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02-java-collections-arrays-lists-sets-maps/ArraysOfArrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnalyzeWeatherData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnalyzeWeatherData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArraysOfArrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TallyingElection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TallyingElection.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,29 +22,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ArraysOfArrays.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ArraysOfArrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AnalyzeWeatherData.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AnalyzeWeatherData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+            <state relative-caret-position="84">
+              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TallyingElection.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TallyingElection.java">
+      <file leaf-file-name="AnalyzeWeatherDataTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AnalyzeWeatherDataTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+            <state relative-caret-position="501">
+              <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -61,16 +58,20 @@
       <list>
         <option value="$PROJECT_DIR$/src/RollingDice.java" />
         <option value="$PROJECT_DIR$/src/CalcsAverages.java" />
-        <option value="$PROJECT_DIR$/src/ArraysOfArrays.java" />
         <option value="$PROJECT_DIR$/src/CalculateAverages.java" />
-        <option value="$PROJECT_DIR$/src/TallyingElection.java" />
         <option value="$PROJECT_DIR$/src/RollingDiceTest.java" />
         <option value="$PROJECT_DIR$/src/ContainsDupesTest.java" />
         <option value="$PROJECT_DIR$/src/ContainsDupes.java" />
         <option value="$PROJECT_DIR$/src/ContainsDuplicates.java" />
         <option value="$PROJECT_DIR$/src/CalculatingAverages.java" />
         <option value="$PROJECT_DIR$/src/CalculatingAveragesTest.java" />
+        <option value="$PROJECT_DIR$/src/TallyingElection.java" />
+        <option value="$PROJECT_DIR$/src/TallyingElectionTest.java" />
+        <option value="$PROJECT_DIR$/src/ArraysOfArrays.java" />
+        <option value="$PROJECT_DIR$/src/ArrayOfArrays.java" />
+        <option value="$PROJECT_DIR$/src/ArrayOfArraysTest.java" />
         <option value="$PROJECT_DIR$/src/AnalyzeWeatherData.java" />
+        <option value="$PROJECT_DIR$/src/AnalyzeWeatherDataTest.java" />
       </list>
     </option>
   </component>
@@ -88,8 +89,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -116,6 +117,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -137,26 +139,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatingAveragesTest">
-    <configuration name="AnalyzeWeatherData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AnalyzeWeatherData" />
-      <module name="02-java-collections-arrays-lists-sets-maps" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="ContainsDupes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ContainsDupes" />
+  <component name="RunManager" selected="JUnit.AnalyzeWeatherDataTest">
+    <configuration name="ArraysOfArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysOfArrays" />
       <module name="02-java-collections-arrays-lists-sets-maps" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="CalculatingAveragesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnalyzeWeatherDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="02-java-collections-arrays-lists-sets-maps" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatingAveragesTest" />
+      <option name="MAIN_CLASS_NAME" value="AnalyzeWeatherDataTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -168,12 +165,12 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ContainsDuplicatesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayOfArraysTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="02-java-collections-arrays-lists-sets-maps" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ContainsDuplicatesTest" />
+      <option name="MAIN_CLASS_NAME" value="ArrayOfArraysTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -185,14 +182,31 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="RollingDiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TallyingElectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="02-java-collections-arrays-lists-sets-maps" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RollingDiceTest" />
+      <option name="MAIN_CLASS_NAME" value="TallyingElectionTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TallyingElectionTest.winnerBush" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="02-java-collections-arrays-lists-sets-maps" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TallyingElectionTest" />
+      <option name="METHOD_NAME" value="winnerBush" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -241,19 +255,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.RollingDiceTest" />
-      <item itemvalue="Application.ContainsDupes" />
-      <item itemvalue="JUnit.ContainsDuplicatesTest" />
-      <item itemvalue="Application.AnalyzeWeatherData" />
-      <item itemvalue="JUnit.CalculatingAveragesTest" />
+      <item itemvalue="Application.ArraysOfArrays" />
+      <item itemvalue="JUnit.TallyingElectionTest.winnerBush" />
+      <item itemvalue="JUnit.TallyingElectionTest" />
+      <item itemvalue="JUnit.ArrayOfArraysTest" />
+      <item itemvalue="JUnit.AnalyzeWeatherDataTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculatingAveragesTest" />
-        <item itemvalue="Application.AnalyzeWeatherData" />
-        <item itemvalue="JUnit.ContainsDuplicatesTest" />
-        <item itemvalue="JUnit.RollingDiceTest" />
-        <item itemvalue="Application.ContainsDupes" />
+        <item itemvalue="JUnit.AnalyzeWeatherDataTest" />
+        <item itemvalue="JUnit.ArrayOfArraysTest" />
+        <item itemvalue="JUnit.TallyingElectionTest" />
+        <item itemvalue="JUnit.TallyingElectionTest.winnerBush" />
+        <item itemvalue="Application.ArraysOfArrays" />
       </list>
     </recent_temporary>
   </component>
@@ -289,6 +303,18 @@
     <history-entry file="CalculatingAveragesTest - 2018.07.11 at 13h 32m 52s.xml">
       <configuration name="CalculatingAveragesTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TallyingElectionTest - 2018.07.11 at 18h 41m 53s.xml">
+      <configuration name="TallyingElectionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayOfArraysTest - 2018.07.12 at 09h 02m 19s.xml">
+      <configuration name="ArrayOfArraysTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnalyzeWeatherDataTest - 2018.07.12 at 11h 03m 42s.xml">
+      <configuration name="AnalyzeWeatherDataTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnalyzeWeatherDataTest - 2018.07.12 at 11h 03m 57s.xml">
+      <configuration name="AnalyzeWeatherDataTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -296,23 +322,23 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32809225" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32809225" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2851153" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2851153" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536855" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.257371" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39937106" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -321,6 +347,34 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.2851153" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536855" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info active="true" anchor="bottom" id="Messages" order="0" visible="true" weight="0.32809225" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -331,6 +385,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/AnalyzeWeatherData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/RollingDice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -345,14 +406,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CalcsAverages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArraysOfArrays.java">
+    <entry file="file://$PROJECT_DIR$/src/CalcsAverages.java" />
+    <entry file="file://$PROJECT_DIR$/src/ArrayOfArrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
@@ -370,23 +425,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="29" selection-start-column="29" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#210#227#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CalcsAverages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CalculateAverages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CalcsAverages.java" />
+    <entry file="file://$PROJECT_DIR$/src/CalculateAverages.java" />
     <entry file="file://$PROJECT_DIR$/src/RollingDice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -435,24 +482,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TallyingElection.java">
+    <entry file="file://$PROJECT_DIR$/src/TallyingElectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        <state relative-caret-position="756">
+          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArraysOfArrays.java">
+    <entry file="file://$PROJECT_DIR$/src/TallyingElection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        <state relative-caret-position="147">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#210#227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArrayOfArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArrayOfArraysTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AnalyzeWeatherDataTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AnalyzeWeatherData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        <state relative-caret-position="84">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
         </state>
       </provider>
     </entry>
