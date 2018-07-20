@@ -8,7 +8,6 @@ public class AnalyzingWeatherData {
 
     public static List data(int[][] array) {
 
-        //Hash Set only keeps the unique numbers so all duplicates are removed.
         HashSet<Integer> data = new HashSet<>();
         for (int row = 0; row < array.length; row++) {
             for (int col = 0; col < array[row].length; col++) {
