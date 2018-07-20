@@ -8,7 +8,7 @@ class ArrayAverageTest {
     void arrayAverageTest() {
 
         int[] arr = {1,2,3,4,5};
-        double expected = 7.5;
+        double expected = 3.0;
 
         double actual = ArrayAverage.arrayAverage(arr);
         assertEquals(expected,actual);
